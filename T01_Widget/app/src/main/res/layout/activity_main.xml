@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.a.t01_widget.MainActivity">
+<!--오리엔테이션 vertical: 순서대로-->
+  <Button
+      android:layout_weight="0.1"
+      android:layout_margin="30dp"
+      android:paddingLeft="38dp"
+      android:paddingTop="30dp"
+      android:textSize="30dp"
+      android:text="Hello world"
+      android:layout_width="100dp"
+      android:layout_height="wrap_content" />
+
+<!--파이프는 or느낌-->
+    <Button
+        android:layout_weight="0.1"
+        android:gravity="right|bottom"
+        android:text="a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:layout_weight="0.1"
+        android:layout_gravity="right"
+        android:text="b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
